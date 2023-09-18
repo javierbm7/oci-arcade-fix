@@ -5,7 +5,7 @@ begin
         apex_t_export_file (
             name     => 'customers.sql',
             contents => apex_web_service.make_rest_request (
-                p_url         => 'https://github.com/oracle/apex/raw/21.2/starter-apps/customers/customers.sql',
+                p_url         => 'https://github.com/javierbm7/oci-arcade-fix/raw/master/apis/user/db/customers.sql',
                 p_http_method => 'GET' )));
 
     apex_util.set_workspace('OCIARCADE');
